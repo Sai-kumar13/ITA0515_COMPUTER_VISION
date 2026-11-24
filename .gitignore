@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Large model binaries (>100MB blocked by GitHub)
+*.keras
+*.h5
+
+# Local environments & logs
+.env
+.DS_Store
+Thumbs.db
